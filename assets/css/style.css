@@ -1,0 +1,53 @@
+
+body {
+    margin: 0;
+}
+
+header{
+    background-color: black;
+color:white;
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding:0 30px;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    padding:0 10px;
+}
+
+section {
+    display:flex;
+    margin:auto;
+    max-width:80%;
+    padding:20px;
+}
+
+#work-container{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#work-container a div {
+    min-height:250px;
+    min-width: 350px;
+    margin:10px;
+    border:3px solid black;
+    background-position: center;
+    background-size:cover;
+    /* REMOVE WHEN SPECIFI IMAGES ADDED */
+    background-image: url("../images/horiseon.png");
+}
+
+#work-container a h3 {
+    background-color: black;
+    color:white;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#work1 {
+    background-image: url("../images/horiseon.png");
+}
